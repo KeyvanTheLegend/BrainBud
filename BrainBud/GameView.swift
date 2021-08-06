@@ -17,12 +17,24 @@ struct GameView: View {
         NavigationView {
             GeometryReader { geometry in
                 ScrollView{
-                    VStack {
+                    VStack (spacing: 16) {
                         Image(systemName: "")
-                            .frame(width: geometry.size.width - 32, height: 100, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
-                            .background(Color.red)
+                            .frame(width: abs(geometry.size.width - 32), height: 150, alignment: .center)
+                            .background(Color.purple)
+                            .cornerRadius(12)
+                            .onTapGesture {
+                                print("HI ")
+                            }
+                        Image(systemName: "")
+                            .frame(width: abs(geometry.size.width - 32), height: 150, alignment: .center)
+                            .background(Color.green)
+                            .cornerRadius(12)
+                        Image(systemName: "")
+                            .frame(width: abs(geometry.size.width - 32), height: 150, alignment: .center)
+                            .background(Color.blue)
                             .cornerRadius(12)
                     }.frame(width: geometry.size.width)
+                    .padding([.vertical],16)
                 }
                 .fixFlickering { scrollView in
                     scrollView.background(Color.background)
