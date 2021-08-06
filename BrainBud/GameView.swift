@@ -17,6 +17,8 @@ struct GameView: View {
                         .padding()
                         .navigationTitle("Games")
                     }
+                    .frame(width: geometry.size.width, height: geometry.size.height, alignment: .leading)
+                    .background(Color.background)
                 }
             }
         }
