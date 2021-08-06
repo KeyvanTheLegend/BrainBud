@@ -10,10 +10,18 @@ import SwiftUI
 struct GameView: View {
     var body: some View {
         NavigationView {
-            ScrollView{
-                Text("Hello, world!")
-                    .padding()
-                    .navigationTitle("Games")
+            GeometryReader { geometry in
+                ScrollView{
+                    VStack {
+                    Text("Hello, world!")
+                        .padding()
+                        .navigationTitle("Games")
+                        .frame(width: geometry.size.width)
+                    }
+                }
+                .fixFlickering { scrollView in
+                    scrollView.background(Color.background)
+                }
             }
         }
     }
