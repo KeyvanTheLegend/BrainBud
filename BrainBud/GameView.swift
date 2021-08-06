@@ -16,9 +16,11 @@ struct GameView: View {
                     Text("Hello, world!")
                         .padding()
                         .navigationTitle("Games")
+                        .frame(width: geometry.size.width)
                     }
-                    .frame(width: geometry.size.width, height: geometry.size.height, alignment: .leading)
-                    .background(Color.background)
+                }
+                .fixFlickering { scrollView in
+                    scrollView.background(Color.background)
                 }
             }
         }
