@@ -8,11 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		C00BE13A26BD76F000BE32BE /* BrainBudApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00BE13926BD76F000BE32BE /* BrainBudApp.swift */; };
-		C00BE13C26BD76F000BE32BE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00BE13B26BD76F000BE32BE /* ContentView.swift */; };
+		C00BE13C26BD76F000BE32BE /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00BE13B26BD76F000BE32BE /* GameView.swift */; };
 		C00BE13E26BD76F200BE32BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C00BE13D26BD76F200BE32BE /* Assets.xcassets */; };
 		C00BE14126BD76F200BE32BE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C00BE14026BD76F200BE32BE /* Preview Assets.xcassets */; };
 		C00BE14C26BD76F200BE32BE /* BrainBudTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00BE14B26BD76F200BE32BE /* BrainBudTests.swift */; };
 		C00BE15726BD76F200BE32BE /* BrainBudUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00BE15626BD76F200BE32BE /* BrainBudUITests.swift */; };
+		C00BE16526BD7A3A00BE32BE /* Color+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00BE16426BD7A3A00BE32BE /* Color+extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +36,7 @@
 /* Begin PBXFileReference section */
 		C00BE13626BD76F000BE32BE /* BrainBud.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BrainBud.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C00BE13926BD76F000BE32BE /* BrainBudApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrainBudApp.swift; sourceTree = "<group>"; };
-		C00BE13B26BD76F000BE32BE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C00BE13B26BD76F000BE32BE /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
 		C00BE13D26BD76F200BE32BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C00BE14026BD76F200BE32BE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C00BE14226BD76F200BE32BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -45,6 +46,7 @@
 		C00BE15226BD76F200BE32BE /* BrainBudUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BrainBudUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C00BE15626BD76F200BE32BE /* BrainBudUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrainBudUITests.swift; sourceTree = "<group>"; };
 		C00BE15826BD76F200BE32BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C00BE16426BD7A3A00BE32BE /* Color+extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,8 +97,9 @@
 		C00BE13826BD76F000BE32BE /* BrainBud */ = {
 			isa = PBXGroup;
 			children = (
+				C00BE16626BD7A4100BE32BE /* Extensions */,
 				C00BE13926BD76F000BE32BE /* BrainBudApp.swift */,
-				C00BE13B26BD76F000BE32BE /* ContentView.swift */,
+				C00BE13B26BD76F000BE32BE /* GameView.swift */,
 				C00BE13D26BD76F200BE32BE /* Assets.xcassets */,
 				C00BE14226BD76F200BE32BE /* Info.plist */,
 				C00BE13F26BD76F200BE32BE /* Preview Content */,
@@ -128,6 +131,14 @@
 				C00BE15826BD76F200BE32BE /* Info.plist */,
 			);
 			path = BrainBudUITests;
+			sourceTree = "<group>";
+		};
+		C00BE16626BD7A4100BE32BE /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				C00BE16426BD7A3A00BE32BE /* Color+extensions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,8 +270,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C00BE13C26BD76F000BE32BE /* ContentView.swift in Sources */,
+				C00BE13C26BD76F000BE32BE /* GameView.swift in Sources */,
 				C00BE13A26BD76F000BE32BE /* BrainBudApp.swift in Sources */,
+				C00BE16526BD7A3A00BE32BE /* Color+extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
