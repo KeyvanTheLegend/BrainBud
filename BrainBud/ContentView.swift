@@ -10,9 +10,11 @@ import SwiftUI
 struct GameView: View {
     var body: some View {
         NavigationView {
-            Text("Hello, world!")
-                .padding()
-                .navigationTitle("Games")
+            ScrollView{
+                Text("Hello, world!")
+                    .padding()
+                    .navigationTitle("Games")
+            }
         }
     }
 }
