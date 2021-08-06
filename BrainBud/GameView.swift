@@ -29,10 +29,16 @@ struct GameView: View {
                             .frame(width: abs(geometry.size.width - 32), height: 150, alignment: .center)
                             .background(Color.green)
                             .cornerRadius(12)
+                            .onTapGesture {
+                                print("HI ")
+                            }
                         Image(systemName: "")
                             .frame(width: abs(geometry.size.width - 32), height: 150, alignment: .center)
                             .background(Color.blue)
                             .cornerRadius(12)
+                            .onTapGesture {
+                                print("HI ")
+                            }
                     }.frame(width: geometry.size.width)
                     .padding([.vertical],16)
                 }
