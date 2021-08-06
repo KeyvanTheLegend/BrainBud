@@ -9,8 +9,11 @@ import SwiftUI
 
 struct GameView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        NavigationView {
+            Text("Hello, world!")
+                .padding()
+                .navigationTitle("Games")
+        }
     }
 }
 
