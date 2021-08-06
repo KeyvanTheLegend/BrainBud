@@ -8,6 +8,11 @@
 import SwiftUI
 
 struct GameView: View {
+    
+    init(){
+        setNavBarAppearence(to: .defualt)
+    }
+    
     var body: some View {
         NavigationView {
             GeometryReader { geometry in

@@ -15,6 +15,7 @@
 		C00BE15726BD76F200BE32BE /* BrainBudUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00BE15626BD76F200BE32BE /* BrainBudUITests.swift */; };
 		C00BE16526BD7A3A00BE32BE /* Color+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00BE16426BD7A3A00BE32BE /* Color+extensions.swift */; };
 		C00BE16926BD819900BE32BE /* ScrollView+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00BE16826BD819900BE32BE /* ScrollView+extensions.swift */; };
+		C00BE16B26BD869300BE32BE /* AnyView+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00BE16A26BD869300BE32BE /* AnyView+extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		C00BE15826BD76F200BE32BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C00BE16426BD7A3A00BE32BE /* Color+extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+extensions.swift"; sourceTree = "<group>"; };
 		C00BE16826BD819900BE32BE /* ScrollView+extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ScrollView+extensions.swift"; sourceTree = "<group>"; };
+		C00BE16A26BD869300BE32BE /* AnyView+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AnyView+extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +142,7 @@
 			children = (
 				C00BE16426BD7A3A00BE32BE /* Color+extensions.swift */,
 				C00BE16826BD819900BE32BE /* ScrollView+extensions.swift */,
+				C00BE16A26BD869300BE32BE /* AnyView+extension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -276,6 +279,7 @@
 				C00BE13C26BD76F000BE32BE /* GameView.swift in Sources */,
 				C00BE13A26BD76F000BE32BE /* BrainBudApp.swift in Sources */,
 				C00BE16526BD7A3A00BE32BE /* Color+extensions.swift in Sources */,
+				C00BE16B26BD869300BE32BE /* AnyView+extension.swift in Sources */,
 				C00BE16926BD819900BE32BE /* ScrollView+extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
