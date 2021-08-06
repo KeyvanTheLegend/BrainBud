@@ -18,15 +18,16 @@ struct GameView: View {
             GeometryReader { geometry in
                 ScrollView{
                     VStack {
-                    Text("Hello, world!")
-                        .padding()
-                        .navigationTitle("Games")
-                        .frame(width: geometry.size.width)
-                    }
+                        Image(systemName: "")
+                            .frame(width: geometry.size.width - 32, height: 100, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+                            .background(Color.red)
+                            .cornerRadius(12)
+                    }.frame(width: geometry.size.width)
                 }
                 .fixFlickering { scrollView in
                     scrollView.background(Color.background)
                 }
+                .navigationTitle("Games")
             }
         }
     }
