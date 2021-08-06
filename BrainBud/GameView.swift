@@ -12,9 +12,11 @@ struct GameView: View {
         NavigationView {
             GeometryReader { geometry in
                 ScrollView{
+                    VStack {
                     Text("Hello, world!")
                         .padding()
                         .navigationTitle("Games")
+                    }
                 }
             }
         }
