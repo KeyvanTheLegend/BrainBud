@@ -13,7 +13,13 @@ struct Game1View: View {
             ZStack{
                 /// Setting Background Color
                 Color.background.ignoresSafeArea()
-                
+                VStack {
+                    Text("01 : 32")
+                        .foregroundColor(.white)
+                        .padding([.vertical],32)
+                        .font(.title.bold())
+                    Spacer()
+                }
             }
         }
     }
