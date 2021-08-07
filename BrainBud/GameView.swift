@@ -50,7 +50,7 @@ struct GameView: View {
                 Group {
                     ///Navigation Links :
                     NavigationLink(
-                        destination: Text("HI"),
+                        destination: Game1View(),
                         isActive: .constant(openFirstGame),
                         label: {
                             EmptyView()

@@ -16,6 +16,7 @@
 		C00BE16526BD7A3A00BE32BE /* Color+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00BE16426BD7A3A00BE32BE /* Color+extensions.swift */; };
 		C00BE16926BD819900BE32BE /* ScrollView+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00BE16826BD819900BE32BE /* ScrollView+extensions.swift */; };
 		C00BE16B26BD869300BE32BE /* AnyView+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00BE16A26BD869300BE32BE /* AnyView+extension.swift */; };
+		C09EE2BE26BEB2240064B300 /* Game1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09EE2BD26BEB2240064B300 /* Game1View.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		C00BE16426BD7A3A00BE32BE /* Color+extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+extensions.swift"; sourceTree = "<group>"; };
 		C00BE16826BD819900BE32BE /* ScrollView+extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ScrollView+extensions.swift"; sourceTree = "<group>"; };
 		C00BE16A26BD869300BE32BE /* AnyView+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AnyView+extension.swift"; sourceTree = "<group>"; };
+		C09EE2BD26BEB2240064B300 /* Game1View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game1View.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 				C00BE16626BD7A4100BE32BE /* Extensions */,
 				C00BE13926BD76F000BE32BE /* BrainBudApp.swift */,
 				C00BE13B26BD76F000BE32BE /* GameView.swift */,
+				C09EE2BD26BEB2240064B300 /* Game1View.swift */,
 				C00BE13D26BD76F200BE32BE /* Assets.xcassets */,
 				C00BE14226BD76F200BE32BE /* Info.plist */,
 				C00BE13F26BD76F200BE32BE /* Preview Content */,
@@ -280,6 +283,7 @@
 				C00BE13A26BD76F000BE32BE /* BrainBudApp.swift in Sources */,
 				C00BE16526BD7A3A00BE32BE /* Color+extensions.swift in Sources */,
 				C00BE16B26BD869300BE32BE /* AnyView+extension.swift in Sources */,
+				C09EE2BE26BEB2240064B300 /* Game1View.swift in Sources */,
 				C00BE16926BD819900BE32BE /* ScrollView+extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
