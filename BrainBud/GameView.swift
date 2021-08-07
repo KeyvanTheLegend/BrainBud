@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct GameView: View {
+    @State var openFirstGame = false
     
     init(){
         setNavBarAppearence(to: .defualt)
@@ -23,7 +24,7 @@ struct GameView: View {
                             .background(Color.purple)
                             .cornerRadius(12)
                             .onTapGesture {
-                                print("HI ")
+                                openFirstGame.toggle()
                             }
                         Image(systemName: "")
                             .frame(width: abs(geometry.size.width - 32), height: 150, alignment: .center)
@@ -46,6 +47,15 @@ struct GameView: View {
                     scrollView.background(Color.background)
                 }
                 .navigationTitle("Games")
+                Group {
+                    ///Navigation Links :
+                    NavigationLink(
+                        destination: Text("HI"),
+                        isActive: .constant(openFirstGame),
+                        label: {
+                            EmptyView()
+                        })
+                }
             }
         }
     }
